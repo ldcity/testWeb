@@ -16,9 +16,19 @@
 <body>
   <h1 style="border:2px double Tomato;"><i>My First JavaScript</i></h1>
   <form action="http://localhost/login.php">
-    <p>아이디 : <input type="text" name="id"></p>
-    <p>비밀번호 : <input type="password" name="pwd"></p>
-    <p>주소 : <input type="text" name="address"></p>
+    <p>text : <input type="text" name="id" value="input id"></p>
+    <p>password : <input type="password" name="pwd" value="input pwd"></p>
+    <p>text2 : <input type="text" name="address"></p>
+    <p>textarea : <textarea cols="50" rows="3">input textarea</textarea>
+    <input type="submit">
+  </form>
+  <h1>색상</h1>
+  <form action="http://localhost/color.php">
+    <select>
+      <option>붉은색</option>
+      <option>검은색</option>
+      <option>파란색</option>
+    </select>
     <input type="submit">
   </form>
   <ul>
@@ -34,7 +44,7 @@
   <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
     Click me to display Date and Time.</button>
 
-  <p id="demo" style="text-align:center;"></p>
+  <p id="demo" style="text-align:center;"></p> 
 
   <p>hello! <em>oh my</em> you <mark>are so</mark> <del>tired.</del><br>
   <q>Are you?</q> "yes "do" du"</p>
